@@ -5,6 +5,7 @@ import com.example.to_do_list.service.TaskService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("tasks")
@@ -18,6 +19,11 @@ public class TaskController {
     @GetMapping
     public List<Task> getAllTasks() {
         return taskService.getAllTasks();
+    }
+
+    @GetMapping("/{id}")
+    public Optional<Task> getTask(@PathVariable Long id) {
+        return taskService.getTaskById(id);
     }
 
     @PostMapping
