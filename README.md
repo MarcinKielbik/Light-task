@@ -34,3 +34,10 @@ application using Spring Web, Spring Data JPA, and an H2 in-memory database.
 ```bash
 git clone https://github.com/your-username/todo-app.git
 cd todo-app
+```
+### 2. Run the Application
+```bash
+./mvnw spring-boot:run
+```
+
+## 🌐 REST API Endpoints
