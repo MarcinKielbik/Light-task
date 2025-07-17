@@ -2,10 +2,12 @@ package com.example.to_do_list.service;
 
 import com.example.to_do_list.model.Task;
 import com.example.to_do_list.repository.TaskRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class TaskServiceImpl implements TaskService{
 
     private final TaskRepository taskRepository;
