@@ -1,4 +1,5 @@
-# 📝 To-Do List Application
+# 📝 Light task
+
 
 A simple to-do list REST API built with **Java** and **Spring Boot**.  
 This project demonstrates how to create a basic CRUD (Create, Read, Update, Delete) 

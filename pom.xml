@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>to-do-list</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>to-do-list</name>
+	<name>light-task</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
